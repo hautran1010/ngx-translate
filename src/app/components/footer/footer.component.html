@@ -1,0 +1,6 @@
+<div class="form">
+    <select (change)="changeLang($any($event.target).value)">
+        <option value="en" [selected]="lang =='en'">English</option>
+        <option value="jp" [selected]="lang =='jp'">Japanese</option>
+    </select>
+</div>

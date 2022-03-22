@@ -1,0 +1,11 @@
+{
+  "Sitetitle": "Angular多言語サイト",
+  "Name": "名前",
+  "NameError": "名前が必要だと思います!",
+  "Email": "電子メールアドレス",
+  "PhoneNo": "電話番号",
+  "Password": "パスワード",
+  "Bio": "バイオを入力してください",
+  "TermsConditions": "利用規約に同意します。",
+  "Submit": "参加する"
+}
