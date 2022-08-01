@@ -9,6 +9,7 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { NgxTranslateModule } from './shared/translate/translate.module';
+import { Branch1Component } from './branch1/branch1.component';
 import { MasterComponent } from './master/master.component';
 
 
@@ -19,6 +20,7 @@ import { MasterComponent } from './master/master.component';
     AppComponent,
     NavComponent,
     FooterComponent,
+    Branch1Component,
     MasterComponent
   ],
   imports: [
