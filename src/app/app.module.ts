@@ -9,6 +9,7 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { NgxTranslateModule } from './shared/translate/translate.module';
+import { MasterComponent } from './master/master.component';
 
 
 
@@ -17,7 +18,8 @@ import { NgxTranslateModule } from './shared/translate/translate.module';
   declarations: [
     AppComponent,
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    MasterComponent
   ],
   imports: [
     BrowserModule,
