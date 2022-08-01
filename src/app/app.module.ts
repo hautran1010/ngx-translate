@@ -9,6 +9,9 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { NgxTranslateModule } from './shared/translate/translate.module';
+import { Branch2Component } from './branch2/branch2.component';
+import { Branch2NewComponent } from './branch2-new/branch2-new.component';
+import { Branch2NewNewComponent } from './branch2-new-new/branch2-new-new.component';
 
 
 
@@ -17,7 +20,10 @@ import { NgxTranslateModule } from './shared/translate/translate.module';
   declarations: [
     AppComponent,
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    Branch2Component,
+    Branch2NewComponent,
+    Branch2NewNewComponent,
   ],
   imports: [
     BrowserModule,
