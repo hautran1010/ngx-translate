@@ -13,6 +13,7 @@ import { Branch2Component } from './branch2/branch2.component';
 import { Branch2NewComponent } from './branch2-new/branch2-new.component';
 import { Branch2NewNewComponent } from './branch2-new-new/branch2-new-new.component';
 import { Branch1Component } from './branch1/branch1.component';
+import { MasterComponent } from './master/master.component';
 
 
 
@@ -25,7 +26,8 @@ import { Branch1Component } from './branch1/branch1.component';
     Branch2Component,
     Branch2NewComponent,
     Branch2NewNewComponent,
-    Branch1Component
+    Branch1Component,
+    MasterComponent
   ],
   imports: [
     BrowserModule,
