@@ -14,6 +14,7 @@ import { Branch2NewComponent } from './branch2-new/branch2-new.component';
 import { Branch2NewNewComponent } from './branch2-new-new/branch2-new-new.component';
 import { Branch1Component } from './branch1/branch1.component';
 import { MasterComponent } from './master/master.component';
+import { Branh2NewComponent } from './branh2-new/branh2-new.component';
 
 
 
@@ -27,7 +28,8 @@ import { MasterComponent } from './master/master.component';
     Branch2NewComponent,
     Branch2NewNewComponent,
     Branch1Component,
-    MasterComponent
+    MasterComponent,
+    Branh2NewComponent
   ],
   imports: [
     BrowserModule,
