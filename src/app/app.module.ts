@@ -10,6 +10,7 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { NgxTranslateModule } from './shared/translate/translate.module';
 import { Branch1Component } from './branch1/branch1.component';
+import { MasterComponent } from './master/master.component';
 
 
 
@@ -19,7 +20,8 @@ import { Branch1Component } from './branch1/branch1.component';
     AppComponent,
     NavComponent,
     FooterComponent,
-    Branch1Component
+    Branch1Component,
+    MasterComponent
   ],
   imports: [
     BrowserModule,
